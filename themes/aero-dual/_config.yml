@@ -4,7 +4,7 @@ menu:
   Archives: /archives
   # change github and email values to your own addresses
   Github: https://github.com/gtensor
-  About Us: https://github.com/gtensor
+  About Us: /about-us
 rss: /atom.xml
 
 logo: /img/logo.png

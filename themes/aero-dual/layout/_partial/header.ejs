@@ -14,16 +14,16 @@
     siteMenuClass += ' with-background-image';
   }
 
+  
+  var pageTitle = config.title;
+  var pageLogo = theme.logo;
+
   if (headerType === 'index') {
-    pageTitle = config.title;
-    pageLogo = theme.logo;
     pageSubtitle = __('home_title');
   } else if (headerType === 'post') {
-    pageTitle = config.title;
     if (post && post.cover) headerStyle = 'background-image: url(' + post.cover + ')';
     pageSubtitle = post.title || __('untitled_post');
   } else if (headerType === 'archive') {
-    pageTitle = config.title;
     pageSubtitle = __('archive_title');
   }
 %>

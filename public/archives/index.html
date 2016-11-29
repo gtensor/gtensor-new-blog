@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <!-- Html Head Tag-->
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="G-Tensor">
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="G-Tensor"/>
+  <meta property="og:description" content="This is G-Tensor team" />
+  <meta property="og:site_name" content="G-Tensor"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="undefined"/>
+  
+    <link rel="alternate" href="/atom.xml" title="G-Tensor" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.png">
+  
+
+  <!-- Site Title -->
+  <title>G-Tensor</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  
+  <!-- Custom CSS -->
+  
+  <link rel="stylesheet" href="/css/style.dark.css">
+
+  <!-- Google Analytics -->
+  
+
+  <link rel="stylesheet" href="/css/search.css">
+</head>
+
+  <body>
+    <!-- Archive Header -->
+<!-- Page Header -->
+
+
+    <header class="site-header header-background" style="background-image: url(/img/inforge2.jpg)">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-9" id="site_search">
+                <input type="text" id="local-search-input" name="q" results="0" placeholder="search..." class="form-control" />
+                <div id="local-search-result"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-title with-background-image">
+                        <p class="title">
+                            <img class="logo" src="/img/logo.png" width="72 px" height="128 px"></img>
+                            G-Tensor
+                        </p>
+                        <p class="subtitle">
+                            Archives
+                        </p>
+                    </div>
+                    <div class="site-menu with-background-image">
+                        <ul>
+                            
+                                <li>
+                                    <a href="/">
+                                        
+                                                Home
+                                                    
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/archives">
+                                        
+                                                Archives
+                                                    
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://github.com/gtensor">
+                                        
+                                                Github
+                                                    
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/about-us">
+                                        
+                                                About Us
+                                                    
+                                    </a>
+                                </li>
+                                
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- Archive List -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      
+        <div class="archive-item">
+  <a href="/2016/11/29/Test/" class="post-title">
+    Test
+  </a>
+  <div class="date text-muted">Posted on 2016-11-29 10:30:54</div>
+</div>
+
+      
+        <div class="archive-item">
+  <a href="/2016/11/29/hello-world/" class="post-title">
+    Hello World
+  </a>
+  <div class="date text-muted">Posted on 2016-11-29 10:08:19</div>
+</div>
+
+      
+
+    </div>
+  </div>
+</div>
+<!-- Pagination -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-md-10 col-md-offset-1">
+      <ul class="pagination">
+          
+          
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <p class="copyright text-muted">
+          <a target="_blank" href="https://github.com/gtensor">G-Tensor Team</a>
+        <p class="copyright text-muted">
+          Powered By <a target="_blank" href="https://hexo.io/">Hexo.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- After Footer Scripts -->
+<script src="/js/jquery-1.11.3.min.js"></script>
+<script src="/js/highlight.pack.js"></script>
+<script src="/js/search.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var codeBlocks = Array.prototype.slice.call(document.getElementsByTagName('pre'))
+    codeBlocks.forEach(function(block, index) {
+      hljs.highlightBlock(block);
+    });
+  });
+
+  var search_path = "search.xml";
+  if (search_path.length == 0) {
+      search_path = "search.xml";
+  }
+  var path = "/" + search_path;
+  searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
+
+  </body>
+</html>
+
+
