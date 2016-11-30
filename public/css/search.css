@@ -1,13 +1,35 @@
+
+
+
+#local-search-result{
+  position: relative;
+}
+
 ul.search-result-list {
-    padding-left: 10px;
+  display: block;
+  /*padding-left: 8px;*/
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width:100%;
+  height: auto;
+  z-index: 1;
+  background: transparent;
+  border: 1px solid #ccc;
 }
 
 a.search-result-title {
+  display: block;
     font-weight: bold;
+    padding: 0.1em 0.3em;
 }
 
+ul.search-result-list li {
+  float:none;
+}
 p.search-result {
-    color: #555;
+  color:#555;
+  display: none;
 }
 
 em.search-keyword {

@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="post-info text-muted">
-          <% if (post.title != "About Us") { %>
+          <% if (post.title != "About Us" && post.title != "Research") { %>
             <% if (config.author) { %>
               <!-- Author -->
               <span class="author info">By <%- config.author %></span>
